@@ -18,4 +18,8 @@ Es consultado por ms-prestamos y ms-recursos-digitales para verificar la identid
 Contiene datos sensibles, como credenciales e información personal, por lo que requiere alta seguridad y aislarlo permite proteger estos datos y controlar mejor el acceso.
 
 ## Tecnología
-Java 17 + Spring Boot + Maven
+- Java 17 + Spring Boot (Spring Web, Spring Security)
+- Maven
+- Base de datos: SQL (PostgreSQL) — datos relacionales de usuarios y roles
+- Autenticación: JWT / OAuth2
+- Comunicación: REST API (vía API Gateway)
